@@ -1,6 +1,10 @@
 
 * {
-  border: 1px solid black;
+  /* border: 1px solid black; */
+}
+
+body {
+  margin: 0;
 }
 
 /*--------Header-All-pages------*/
@@ -44,34 +48,34 @@ header p {
 
 /*--------main-index.html-----*/
 main {
-  padding-left: 8rem;
+  /* padding-left: 8rem; */
 }
 
 /* section boy hugging dog */
 .flex-container-top {
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
+  /* align-items: flex-start; */
+  /* justify-content: flex-start; */
 }
 .flex-item-image-top {
   /*height: 10%;*/
   width: 180%;
 }
 .title-about {
-  flex-direction: column;
-  align-items: center;
-  padding: 0;
-  margin: 1rem;
+  /* flex-direction: column; */
+  /* align-items: center; */
+  /* padding: 0; */
+  /* margin: 1rem; */
 }
 .flex-item-title-top {
-  height: 30px;
-  width: 50%;
-  margin: 0;
+  /* height: 30px; */
+  /* width: 50%; */
+  /* margin: 0; */
 }
 .flex-item-about {
-  height: 100px;
-  width: 50%;
+  /* height: 100px; */
+  /* width: 50%; */
 }
 /*-----section--flex-container-index----*/
 .flex-container-index-1 {
@@ -122,16 +126,16 @@ main {
   width: 100%;
 }
 .flex-item-dog {
-  width: 25%;
+  /* width: 25%; */
 }
 .flex-dog-cost {
-  width: 25%
+  /* width: 25% */
 }
 .flex-dog-info {
-  width: 25%;
+  /* width: 25%; */
 }
 .flex-dog-button {
-  width: 25%;
+  /* width: 25%; */
 }
 
 .see-more {
@@ -199,9 +203,7 @@ main {
 .dog-listing-title {
 
 }
-.grid-item-image {
-
-}
+.grid-item-image {width: 100%;}
 .grid-item-dog {
 
 }
@@ -340,7 +342,7 @@ footer {
 .svg-dog-footer {
   width: 100%;
   height: 10%;
-  padding-left: 6rem;
+  /* padding-left: 6rem; */
   padding-top: 2rem;
 }
 footer p {
@@ -362,3 +364,18 @@ footer p {
 }
 
 
+.dog-card {
+  border: 4px solid black;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  /* text-align: center; */
+}
+
+.dog-card > .grid-item-image {
+  width: 100%;
+}
+
+.dog-card-small {
+  font-size: .5rem;
+}
