@@ -75,14 +75,13 @@ header p {
   }
 /*---Nav end---*/
 /*------Top of Home page index.html --*/
-main {
-padding: 0rem 20rem 2rem 10rem;
-}
+main {padding: 0rem 10rem 2rem 10rem;}
 
 .adopt-a-dog-intro {
   width: 100%;
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
+  /* flex-wrap: wrap; */
 }
   /* section boy hugging dog */
   .flex-container-top {
@@ -91,15 +90,16 @@ padding: 0rem 20rem 2rem 10rem;
     justify-content: flex-start;*/
   }
   .index-image-top {
-    display: flex;
-    align-items: flex-start;
-    width: 80%;
-    padding: 3rem 0 3rem 0;
+    /* display: flex; */
+    /* align-items: flex-start; */
+    /* width: 80%; */
+    padding: 3rem 3rem 3rem 0;
+    height: fit-content;
   }
   .title-about {
-    width: 50%;
+    /* width: 50%; */
     color: #008080;
-    font-size: 1.2rem;;
+    font-size: 1.2rem;
     padding-top: 2rem;
     line-height: 1.5rem;
   }
@@ -133,12 +133,14 @@ padding: 0rem 20rem 2rem 10rem;
 .dog-card {
   border: 2px solid #e8e8e8;
   width: 200px;
-  height: 400px;
+  /* height: 400px; */
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   box-sizing: border-box;
   align-items: center;
+  /* padding: 1rem; */
+  margin: 1rem;
 }
 .dog-card > .dog-item-image {
   width: 100%;
@@ -152,16 +154,16 @@ padding-left: .5rem;
 
 .flex-dog-button {
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+  /* flex-direction: row; */
+  justify-content: center;
   background-color: #33cc33;
   color: white;
-  font-family: "Times New Roman", Times,  serif;
+  /* font-family: "Times New Roman", Times,  serif; */
   font-weight: bold;
-  font-size: 1rem;
-  box-sizing: border-box;
+  /* font-size: 1rem; */
+  /* box-sizing: border-box; */
   width: 75%;
-  height: 7%;
+  /* height: 7%; */
 }
 /*---dog card end ---*/
 .see-more {
